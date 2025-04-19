@@ -17,7 +17,7 @@ using a Random Forest classifier trained on each representation.
 
 **MNIST handwritten digits**  
 - Source: [Kaggle MNIST Original](https://www.kaggle.com/datasets/avnishnish/mnist-original)
-- 70,000 images of size 28×28
+- 70,000 images of size 28x28
 - 80/20 train-test split, stratified by digit label
 
 ## Setup
@@ -25,8 +25,8 @@ using a Random Forest classifier trained on each representation.
 1. **Clone this repo** and navigate into it:
 
    ```
-   git clone <your_repo_url>
-   cd project
+   git clone https://github.com/theosiemensrhodes/mnist-feature-extraction
+   cd mnist-feature-extraction
    ```
 
 2. **Create a virtual environment and activate it**:
@@ -53,13 +53,13 @@ using a Random Forest classifier trained on each representation.
 
 | Method                          | Dimensionality | Test Accuracy |
 |---------------------------------|----------------|---------------|
-| CNN Encoded                    | 128            | 98.5%         |
-| Autoencoded + PCA              | 32             | 95.3%         |
-| Fixed Convolution Encoded      | 150            | 96.1%         |
-| Raw Pixels                     | 784            | 96.6%         |
-| Raw Pixels + PCA               | 128            | 94.4%         |
+| CNN Encoded                     | 128            | 98.5%         |
+| Autoencoded + PCA               | 32             | 95.3%         |
+| Fixed Convolution Encoded       | 150            | 96.1%         |
+| Raw Pixels                      | 784            | 96.6%         |
+| Raw Pixels + PCA                | 128            | 94.4%         |
 
-CNN-derived features consistently outperform other methods, even at low embedding dimensions&#8203;:contentReference[oaicite:0]{index=0}.
+CNN-derived features consistently outperform other methods, even at low embedding dimensions.
 
 ## Report
 
