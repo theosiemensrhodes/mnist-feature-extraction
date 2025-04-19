@@ -1,0 +1,26 @@
+Pipeline,Train Accuracy,Test Accuracy
+"Raw, 784d",1.0,0.9661428571428572
+"CNN Encoded, 128d",1.0,0.9853571428571428
+"Fixed Convolution Encoded, 150d",1.0,0.9610714285714286
+"Autoencoded, 128d",1.0,0.9309285714285714
+"Raw, Projected into top 4d",0.9999642857142857,0.6833571428571429
+"Raw, Projected into top 8d",1.0,0.8741428571428571
+"Raw, Projected into top 16d",1.0,0.929
+"Raw, Projected into top 32d",1.0,0.9427857142857143
+"Raw, Projected into top 64d",1.0,0.9443571428571429
+"Raw, Projected into top 128d",1.0,0.9422142857142857
+"CNN Encoded, Projected into top 4d",0.9999464285714286,0.9222142857142858
+"CNN Encoded, Projected into top 8d",1.0,0.9815714285714285
+"CNN Encoded, Projected into top 16d",1.0,0.9837857142857143
+"CNN Encoded, Projected into top 32d",1.0,0.9844285714285714
+"CNN Encoded, Projected into top 64d",1.0,0.9846428571428572
+"Fixed Convolution Encoded, Projected into top 4d",0.9999821428571428,0.5647857142857143
+"Fixed Convolution Encoded, Projected into top 8d",1.0,0.8577857142857143
+"Fixed Convolution Encoded, Projected into top 16d",1.0,0.9151428571428571
+"Fixed Convolution Encoded, Projected into top 32d",1.0,0.9546428571428571
+"Fixed Convolution Encoded, Projected into top 64d",1.0,0.9595
+"Autoencoded, Projected into top 4d",0.9999821428571428,0.6770714285714285
+"Autoencoded, Projected into top 8d",1.0,0.8684285714285714
+"Autoencoded, Projected into top 16d",1.0,0.9357142857142857
+"Autoencoded, Projected into top 32d",1.0,0.9530714285714286
+"Autoencoded, Projected into top 64d",1.0,0.9506428571428571
